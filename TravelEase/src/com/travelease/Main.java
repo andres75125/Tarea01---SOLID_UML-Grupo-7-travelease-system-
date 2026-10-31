@@ -42,8 +42,8 @@ public class Main {
 
         // 3. Demostración [CU-04]: Reportar Incidencia y Escalamiento
         IncidenciaTicket ticket = incidenciaService.registrarIncidencia("RES-777", "Retraso en entrega del vehículo por parte del proveedor");
-        // Simular escalamiento a proveedor externo (Nivel 2)
-        incidenciaService.escalarAProveedor(ticket);
+        // Escalamiento especificando el correo para la notificación (2 argumentos)
+        incidenciaService.escalarAProveedor(ticket, cliente.getEmail());
 
         // 4. Demostración [CU-03]: Gestionar Cancelación y Reembolso
         reservaService.cancelarReserva(reservaIntegrada);
