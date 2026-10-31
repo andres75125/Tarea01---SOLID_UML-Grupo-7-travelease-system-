@@ -1,18 +1,19 @@
 package com.travelease.service;
 
 public class BusquedaService {
-    private ServicioVuelo vueloServ;
-    private ServicioVehiculo vehiculoServ;
 
-    public BusquedaService(ServicioVuelo vueloServ, ServicioVehiculo vehiculoServ) {
-        this.vueloServ = vueloServ;
-        this.vehiculoServ = vehiculoServ;
+    private IServicioProveedor vueloServ;
+    private IServicioProveedor vehiculoServ;
+
+    public BusquedaService(IProveedorFactory proveedorFactory) {
+        this.vueloServ = proveedorFactory.crearServicioVuelo();
+        this.vehiculoServ = proveedorFactory.crearServicioVehiculo();
     }
 
     public boolean buscarOpciones(String origen, String destino, String fecha) {
         System.out.println("\n=== [CU-01] Ejecutando Búsqueda de Opciones de Viaje ===");
         System.out.println("Buscando itinerarios para: " + origen + " -> " + destino + " el " + fecha);
-        
+
         boolean okVuelos = vueloServ.consultarDisponibilidad();
         boolean okVehiculos = vehiculoServ.consultarDisponibilidad();
 
