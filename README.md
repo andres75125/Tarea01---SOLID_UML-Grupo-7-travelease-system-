@@ -57,11 +57,4 @@ src/
 
 Integrante 1
 
-#### Integrante 1 - Commits y Modelos Core
-<img width="959" height="503" alt="Captura Integrante 1" src="Captura de pantalla 2026-10-30 042320">
-
-#### Integrante 2 - Vehículos y Servicios
-<img width="959" height="385" alt="Captura Integrante 2" src="https://github.com/user-attachments/assets/yyyy">
-
-#### Integrante 3 - Servicios de Negocio y Main
-<img width="959" height="507" alt="Captura Integrante 3" src="https://github.com/user-attachments/assets/zzzz">
+<img width="959" height="503" alt="Captura de pantalla 2026-10-30 042320" src="https://github.com/user-attachments/assets/0d3a1674-99c4-4b91-9e1f-3ec3cdb63a42" />
