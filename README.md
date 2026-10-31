@@ -58,7 +58,7 @@ src/
 Integrante 1
 
 #### Integrante 1 - Commits y Modelos Core
-<img width="959" height="503" alt="Captura Integrante 1" src="<img alt="Captura de pantalla 2026-10-30 031830.png" data-hpc="true" containertiming="hpc" src="https://github.com/andres75125/Tarea01---SOLID_UML-Grupo-7-travelease-system-/blob/main/TravelEase/assets/Captura%20de%20pantalla%202026-10-30%20031830.png?raw=true" style="max-width: 100%;">
+<img width="959" height="503" alt="Captura Integrante 1" src="Captura de pantalla 2026-10-30 042320">
 
 #### Integrante 2 - Vehículos y Servicios
 <img width="959" height="385" alt="Captura Integrante 2" src="https://github.com/user-attachments/assets/yyyy">
