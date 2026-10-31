@@ -56,6 +56,3 @@ src/
 
 
 Integrante 1
-
-<img width="959" height="507" alt="image" src="https://github.com/user-attachments/assets/e19d5cea-593a-40f9-83ce-bae387357f60" />
-
