@@ -56,5 +56,6 @@ src/
 
 
 Integrante 1
-<img width="704" height="372" alt="Captura de pantalla 2026-10-30 205641" src="https://github.com/user-attachments/assets/5ace97a7-107f-40e9-9b5d-eb6687c3cfae" />
+
+<img width="959" height="507" alt="image" src="https://github.com/user-attachments/assets/e19d5cea-593a-40f9-83ce-bae387357f60" />
 
