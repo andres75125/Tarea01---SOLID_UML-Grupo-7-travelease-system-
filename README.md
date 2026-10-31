@@ -56,3 +56,14 @@ src/
 
 
 Integrante 1
+
+### 📸 Evidencias de Aportes por Integrante
+
+#### Integrante 1 - Commits y Modelos Core
+<img width="959" alt="Captura Integrante 1" src="assets/Captura de pantalla 2026-10-30 042320.png" />
+
+#### Integrante 2 - Vehículos y Servicios
+<img width="959" alt="Captura Integrante 2" src="assets/Captura de pantalla 2026-10-30 031830.png" />
+
+#### Integrante 3 - Servicios de Negocio y Main
+<img width="959" alt="Captura Integrante 3" src="assets/Captura de pantalla 2026-10-30 232934.png" />
