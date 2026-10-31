@@ -10,12 +10,11 @@ public class Main {
         System.out.println("==================================================");
 
         // 0. Instanciación de Servicios Generales e Infraestructura
-        ServicioVuelo servicioVuelo = new ServicioVuelo();
-        ServicioVehiculo servicioVehiculo = new ServicioVehiculo();
+        IProveedorFactory proveedorFactory = new ProveedorFactory();
         INotificador notificador = new NotificacionEmailService();
         PagoService pagoService = new PagoService();
-        
-        BusquedaService busquedaService = new BusquedaService(servicioVuelo, servicioVehiculo);
+
+        BusquedaService busquedaService = new BusquedaService(proveedorFactory);
         ReservaService reservaService = new ReservaService(pagoService, notificador);
         IncidenciaService incidenciaService = new IncidenciaService(notificador);
 
@@ -23,27 +22,74 @@ public class Main {
         busquedaService.buscarOpciones("GYE", "UIO", "2026-11-15");
 
         // Datos del Usuario de prueba
-        Usuario cliente = new Usuario("U001", "valeska urrutia", "valeska@gmail.com.ec");
+        Usuario cliente = new Usuario(
+            "U001",
+            "valeska urrutia",
+            "valeska@gmail.com.ec"
+        );
 
         // 2. Demostración [CU-02]: Reservar Viaje Integrado
-        Vuelo vueloAvianca = new Vuelo("V102", "Avianca", "GYE", "UIO", 10, 100.0);
-        Boleto boletoEjecutivo = new Boleto("B001", vueloAvianca, "Ejecutiva", 120.0);
+        Vuelo vueloAvianca = new Vuelo(
+            "V102",
+            "Avianca",
+            "GYE",
+            "UIO",
+            10,
+            100.0
+        );
 
-        Vehiculo rav4 = new Vehiculo("CAR01", "Toyota RAV4", "SUV", 45.0);
-        AlquilerVehiculo alquiler3Dias = new AlquilerVehiculo("ALQ01", rav4, 3);
+        Boleto boletoEjecutivo = new Boleto(
+            "B001",
+            vueloAvianca,
+            "Ejecutiva",
+            120.0
+        );
 
-        Reserva reservaIntegrada = new Reserva("RES-777", cliente);
+        Vehiculo rav4 = new Vehiculo(
+            "CAR01",
+            "Toyota RAV4",
+            "SUV",
+            45.0
+        );
+
+        AlquilerVehiculo alquiler3Dias = new AlquilerVehiculo(
+            "ALQ01",
+            rav4,
+            3
+        );
+
+        Reserva reservaIntegrada = new Reserva(
+            "RES-777",
+            cliente
+        );
+
         reservaIntegrada.agregarBoleto(boletoEjecutivo);
         reservaIntegrada.setAlquilerVehiculo(alquiler3Dias);
-        reservaIntegrada.agregarServicioAdicional(new SeguroViaje("Seguro Médico Internacional", 15.0, 500.0));
+
+        reservaIntegrada.agregarServicioAdicional(
+            new SeguroViaje(
+                "Seguro Médico Internacional",
+                15.0,
+                500.0
+            )
+        );
 
         // Confirmar y Pagar
-        reservaService.confirmarYPagarReserva(reservaIntegrada, "4532-xxxx-xxxx-6899");
+        reservaService.confirmarYPagarReserva(
+            reservaIntegrada,
+            "4532-xxxx-xxxx-6899"
+        );
 
         // 3. Demostración [CU-04]: Reportar Incidencia y Escalamiento
-        IncidenciaTicket ticket = incidenciaService.registrarIncidencia("RES-777", "Retraso en entrega del vehículo por parte del proveedor");
-        // Escalamiento especificando el correo para la notificación (2 argumentos)
-        incidenciaService.escalarAProveedor(ticket, cliente.getEmail());
+        IncidenciaTicket ticket = incidenciaService.registrarIncidencia(
+            "RES-777",
+            "Retraso en entrega del vehículo por parte del proveedor"
+        );
+
+        incidenciaService.escalarAProveedor(
+            ticket,
+            cliente.getEmail()
+        );
 
         // 4. Demostración [CU-03]: Gestionar Cancelación y Reembolso
         reservaService.cancelarReserva(reservaIntegrada);
