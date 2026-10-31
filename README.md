@@ -56,6 +56,6 @@ src/
 
 
 Integrante 1
-
-<img width="959" height="507" alt="image" src="https://github.com/user-attachments/assets/e19d5cea-593a-40f9-83ce-bae387357f60" />
-
+<img width="959" height="503" alt="Captura de pantalla 2026-10-30 042320" src="https://github.com/user-attachments/assets/47f4d5b6-032c-4166-8d47-c6df1924d43f" />
+<img width="959" height="385" alt="Captura de pantalla 2026-10-30 031830" src="https://github.com/user-attachments/assets/09cfcd64-0708-4b50-9521-3168d73e4089" />
+<img width="959" height="507" alt="Captura de pantalla 2026-10-30 232934" src="https://github.com/user-attachments/assets/c17f8adc-91f0-4d79-9be2-0129463caa3e" />
