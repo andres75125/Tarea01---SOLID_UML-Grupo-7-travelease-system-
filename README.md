@@ -240,6 +240,13 @@ Participación en la implementación, integración y estructura general del proy
 ### Integrante 2 - Roy Real
 
 Participación en modelos, enumeraciones y componentes relacionados con vehículos y servicios del sistema.
+<img width="1352" height="700" alt="image" src="https://github.com/user-attachments/assets/37a0d34a-1eed-41e7-9b1d-19776c98d385" />
+<img width="1357" height="703" alt="image" src="https://github.com/user-attachments/assets/daf1581d-a6ba-42ca-af48-c54519ab26ab" />
+<img width="1361" height="700" alt="image" src="https://github.com/user-attachments/assets/21edd661-632a-4034-b3c4-c8727e5ca0de" />
+<img width="1359" height="703" alt="image" src="https://github.com/user-attachments/assets/b246f2f7-fa3b-441c-b951-fb4aee4f5fe4" />
+
+
+
 
 ---
 
