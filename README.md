@@ -230,6 +230,7 @@ También se representa la creación del objeto `IncidenciaTicket` y el envío de
 Participación en la implementación, integración y estructura general del proyecto TravelEase.
 
 <img width="959" alt="CU-04 Reportar Incidencia" src="assets/int1.png" />
+<img width="959" alt="CU-04 Reportar Incidencia" src="assets/int2.png" />
 ---
 
 ### Integrante 2 - Roy Real
