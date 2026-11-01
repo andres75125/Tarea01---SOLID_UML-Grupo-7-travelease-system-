@@ -243,6 +243,8 @@ Participación en modelos, enumeraciones y componentes relacionados con vehícul
 <img width="1352" height="700" alt="image" src="https://github.com/user-attachments/assets/37a0d34a-1eed-41e7-9b1d-19776c98d385" />
 <img width="1357" height="703" alt="image" src="https://github.com/user-attachments/assets/daf1581d-a6ba-42ca-af48-c54519ab26ab" />
 <img width="1361" height="700" alt="image" src="https://github.com/user-attachments/assets/21edd661-632a-4034-b3c4-c8727e5ca0de" />
+<img width="1366" height="679" alt="image" src="https://github.com/user-attachments/assets/af94d78e-afa2-4c89-9b16-48a48620371b" />
+<img width="1365" height="684" alt="image" src="https://github.com/user-attachments/assets/400e6db0-363c-4eb3-a855-8e4c34af0d3e" />
 <img width="1359" height="703" alt="image" src="https://github.com/user-attachments/assets/b246f2f7-fa3b-441c-b951-fb4aee4f5fe4" />
 
 
