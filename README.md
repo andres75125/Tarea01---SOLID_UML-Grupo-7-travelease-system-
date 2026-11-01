@@ -231,6 +231,10 @@ Participación en la implementación, integración y estructura general del proy
 
 <img width="959" alt="CU-04 Reportar Incidencia" src="assets/int1.png" />
 <img width="959" alt="CU-04 Reportar Incidencia" src="assets/int2.png" />
+<img width="959" alt="CU-04 Reportar Incidencia" src="assets/int3.png" />
+<img width="959" alt="CU-04 Reportar Incidencia" src="assets/int4.png" />
+<img width="959" alt="CU-04 Reportar Incidencia" src="assets/int5.png" />
+<img width="959" alt="CU-04 Reportar Incidencia" src="assets/int6.png" />
 ---
 
 ### Integrante 2 - Roy Real
